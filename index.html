@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Website look-up and locate </title>
+    <title>Address look-up and locator</title>
     <script src='index.js'></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?&libraries=places"></script>
+
+    <script src="mapBuilder.js"></script>
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
-    <h1>Website information</h1>
+  <body>Address Lookup  </h1>
     <div id='search-box'></div>
-    <ul id='website-information'>
+    <ul id='address-information'>
 
     </ul>
+    <div id="main-map"></div>
   </body>
 </html>
